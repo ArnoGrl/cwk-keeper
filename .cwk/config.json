@@ -1,0 +1,8 @@
+{
+  "runtime": "github-actions",
+  "intervalHours": 5,
+  "patienceMinutes": 25,
+  "model": "haiku",
+  "prompt": ".",
+  "timezone": "Europe/Paris"
+}

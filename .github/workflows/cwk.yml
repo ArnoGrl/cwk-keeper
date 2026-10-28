@@ -33,7 +33,7 @@ jobs:
       - name: Run CWK
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_OAUTH_TOKEN }}
-        run: cwk ping --verbose
+        run: cwk ping
 
       - name: Commit state if changed
         run: |
